@@ -5,22 +5,34 @@
 }
 
 /* common */
+
+/* creazione classe unica per favorire l'inserimento di tutte le categorie visto che cambiava solo il colore e la scritta all'interno */
 .categoria{
+    /* comando che serve per far rimanere sulla stessa linea i vari elementi */
     display: inline-block;
+    /* allinea il contenuto al centro (orizzontale) */
     text-align: center;
+    /* allinea il contenuto al centro (verticale) */
     vertical-align: middle;
+    /* creo la dimensione nella quale scrivere */
     padding: 4px 10px;
+    /* attribuisco al testo il colore bianco */
     color: white;
+    /* modifico i bordi della dimensione creato per renderli più ovali */
     border-radius: 18%;
 }
 
-
+/* creazione comune della spunta così da cambiare soltanto il colore del simbolo e quello del suo bordo */
 .spunta{
     display: inline-block;
+    /* con questo comando al 50% creo un cerchio perfetto */
     border-radius: 50%;
+    /* setto l'altezza a 20px */
     height: 20px;
+    /* setto la larghezza a 20px */
     width: 20px;
     text-align: center;
+    /* separo il simbolo creato dal testo di 15 px */
     margin-right: 15px;
 }
 
@@ -35,33 +47,43 @@
 /* header */
 
 header{
+    /* creo una sorta di hr di colore grigio chiaro sopra alla pagina */
     border-top: 1px solid rgb(214, 214, 214);
     margin-top: 2%;
 }
 
 #Logo{
+    /* dichiaro che il logo è di 50 px per farlo capire alla scritto di fianco */
     line-height: 50px;
+    /* dico di posizionarsi al centro */
     vertical-align: middle;
     margin-left: 2%;
     margin-top: 1%;
 }
 
 #logo-testo{
+    /* dico di posizionarsi al centro in base al logo */
     vertical-align: middle;
     color: black;
+    /* dichiaro la grandezza del testo a 40px */
     font-size: 40px;
+    /* modifico il tipo di carattere del testo attribuendogli verdana come nuovo tipo */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* main */
 
 main{
+    /* dichiaro che lo sfondo della pagina sarà di questo colore */
     background-color: whitesmoke;
 }
 
 #accentramento{
+    /* ridimensiono la pagina fino al 60% */
     width: 60%;
+    /* le dico di lasciare lo stesso margine sia a sinistra che a destra */
     margin: 0 auto;
+    /* attribuisco un nuovo colore di sfondo alla pagina ridimensionata */
     background-color: white;
 }
 
@@ -71,6 +93,7 @@ main{
 }
 
 #pulsante1{
+    /* scelgo le dimensioni del pulsante */
     padding: 5px 8px;
     display: inline;
     border-radius: 10%;
@@ -101,6 +124,7 @@ main{
 }
 
 .editorial{
+    /* coloro la dimensione nella quale andrò a scrivere */
     background-color: rgb(0, 173, 216);
 }
 
