@@ -5,8 +5,26 @@
 }
 /* common */
 
-/* header */
+.editorial{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px 10px;
+    background-color: rgb(0, 173, 216);
+    color: white;
+    border-radius: 18%;
+}
 
+
+.spunta{
+    display: inline-block;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-right: 15px;
+}
+/* header */
 
 header{
     border-top: 1px solid rgb(214, 214, 214);
@@ -27,3 +45,48 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* main */
+
+main{
+    background-color: whitesmoke;
+}
+
+#accentramento{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+#distanziamento{
+    margin-top: 10%;
+}
+
+#pulsante1{
+    padding: 5px 8px;
+    display: inline;
+    border-radius: 10%;
+    background-color: rgb(0, 173, 216);
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+#pulsante2{
+    padding: 5px 8px;
+    display: inline;
+    border-radius: 10%;
+    border-color: rgb(214, 214, 214);
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(214, 214, 214);
+}
+
+.margine{
+    margin-top: 5%;
+}
+
+.verde{
+    color: green;
+    border: green 1px solid;
+}
