@@ -28,10 +28,11 @@
     margin-top: 5%;
 }
 
-/* header */
 .marginefrasi{
     margin-top: 3px;
 }
+
+/* header */
 
 header{
     border-top: 1px solid rgb(214, 214, 214);
@@ -89,13 +90,6 @@ main{
     color: rgb(214, 214, 214);
 }
 
-
-
-
-.editorial{
-    background-color: rgb(0, 173, 216);
-}
-
 .verde{
     color: green;
     border: green 1px solid;
@@ -104,6 +98,10 @@ main{
 .rossa{
     color: red;
     border: red 1px solid;
+}
+
+.editorial{
+    background-color: rgb(0, 173, 216);
 }
 
 .q1goals{
@@ -116,4 +114,12 @@ main{
 
 .mobile{
     background-color: orange;
+}
+
+.website{
+    background-color: palevioletred;
+}
+
+.sales{
+    background-color: yellowgreen;
 }
