@@ -3,14 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* common */
 
-.editorial{
+/* common */
+.categoria{
     display: inline-block;
     text-align: center;
     vertical-align: middle;
     padding: 4px 10px;
-    background-color: rgb(0, 173, 216);
     color: white;
     border-radius: 18%;
 }
@@ -24,7 +23,15 @@
     text-align: center;
     margin-right: 15px;
 }
+
+.margine{
+    margin-top: 5%;
+}
+
 /* header */
+.marginefrasi{
+    margin-top: 3px;
+}
 
 header{
     border-top: 1px solid rgb(214, 214, 214);
@@ -82,11 +89,31 @@ main{
     color: rgb(214, 214, 214);
 }
 
-.margine{
-    margin-top: 5%;
+
+
+
+.editorial{
+    background-color: rgb(0, 173, 216);
 }
 
 .verde{
     color: green;
     border: green 1px solid;
+}
+
+.rossa{
+    color: red;
+    border: red 1px solid;
+}
+
+.q1goals{
+    background-color: rgb(97, 44, 97);
+}
+
+.recruiting{
+    background-color: rgb(84, 170, 84);
+}
+
+.mobile{
+    background-color: orange;
 }
