@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common */
+
+/* header */
+
+
+header{
+    border-top: 1px solid rgb(214, 214, 214);
+    margin-top: 2%;
+}
+
+#Logo{
+    line-height: 50px;
+    vertical-align: middle;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#logo-testo{
+    vertical-align: middle;
+    color: black;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
