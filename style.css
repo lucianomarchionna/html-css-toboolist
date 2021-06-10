@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* con questo comando il padding e il border vengono aggiunti togliendo spazio alla figura creata e non aggiunge altri pixel */
     box-sizing: border-box;
 }
 
@@ -28,9 +29,9 @@
     /* con questo comando al 50% creo un cerchio perfetto */
     border-radius: 50%;
     /* setto l'altezza a 20px */
-    height: 20px;
+    height: 2%;
     /* setto la larghezza a 20px */
-    width: 20px;
+    width: 2%;
     text-align: center;
     /* separo il simbolo creato dal testo di 15 px */
     margin-right: 15px;
@@ -38,6 +39,7 @@
 
 .margine{
     margin-top: 5%;
+    padding: 20px 50px;
 }
 
 .marginefrasi{
@@ -50,6 +52,7 @@ header{
     /* creo una sorta di hr di colore grigio chiaro sopra alla pagina */
     border-top: 1px solid rgb(214, 214, 214);
     margin-top: 2%;
+    background-color: white;
 }
 
 #Logo{
@@ -73,23 +76,28 @@ header{
 
 /* main */
 
-main{
+body{
     /* dichiaro che lo sfondo della pagina sarà di questo colore */
     background-color: whitesmoke;
 }
 
-#accentramento{
+#contenitore{
     /* ridimensiono la pagina fino al 60% */
-    width: 60%;
+    width: 70%;
     /* le dico di lasciare lo stesso margine sia a sinistra che a destra */
     margin: 0 auto;
     /* attribuisco un nuovo colore di sfondo alla pagina ridimensionata */
     background-color: white;
+    border-radius: 5px;
 }
 
-
-#distanziamento{
+/* distanzio i due pulsanti dal contenitore */
+#top{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 50px;
     margin-top: 10%;
+    border-bottom: 2px solid whitesmoke;
 }
 
 #pulsante1{
